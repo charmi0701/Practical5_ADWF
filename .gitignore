@@ -1,0 +1,34 @@
+# Keep dependencies and generated build output out of the repository.
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Never publish local environment files or credentials. Keep example templates.
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and operating system files.
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Node.js installer/runtime files present at the workspace root.
+/node-v*.msi
+/node.exe
+/nodevars.bat
+/npm
+/npm.cmd
+/npm.ps1
+/npx
+/npx.cmd
+/npx.ps1
+/install_tools.bat
+/package.json
+/package-lock.json
+
+# This is a separate, unrelated project, not one of the practicals.
+/internal/
